@@ -390,12 +390,8 @@
     </div>
 
     <script>
-        const CORRECT_PASSWORD = "110905"; 
-        const CORRECT_PASSWORD1 = "100105";
-        const CORRECT_PASSWORD2 = "123456";
+        const CORRECT_PASSWORD = "123456";
         const REDIRECT_URL = "index1.html";
-        const REDIRECT_URL1 = "index2.html";
-        const REDIRECT_URL2 = "index3.html";
 
         const input = document.getElementById("password");
         const errorText = document.getElementById("error");
@@ -416,14 +412,6 @@
         function checkPass() {
             if ((input.value === CORRECT_PASSWORD)) {
                 window.location.href = REDIRECT_URL;
-            }
-            else if((input.value === CORRECT_PASSWORD1))
-            {
-                window.location.href = REDIRECT_URL1;
-            }
-            else if((input.value === CORRECT_PASSWORD2))
-            {
-                window.location.href === REDIRECT_URL2;
             }
             else {
                 errorText.textContent = "Sai mật khẩu!";

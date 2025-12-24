@@ -191,7 +191,7 @@ $(document).ready(function () {
                     $(".message").typed({
                         strings: [
                             "<<< Merry Christmas >>>",
-                            "NPV",
+                            "",//Them loi chuc vao day
                         ],
                         typeSpeed: 1,
                         startDelay: 500,
